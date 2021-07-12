@@ -1,0 +1,112 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+   
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    margin: 75px 0;
+    width:1440px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+   
+}
+
+.container ul {
+    display: flex;
+    height: 500px;
+
+}
+
+
+.Sedan
+{
+background-color: hsl(31, 77%, 52%) ;
+border-radius: 8px 0 0 8px;/* top rigth bottom left */
+
+}
+
+.Suv
+{
+    background-color: hsl(184, 100%, 22%);
+   
+}
+
+.Luxury
+{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 8px 8px 0;
+}
+
+.container img
+{
+ padding: 80px 0 30px 100px;
+}
+
+.container h1{
+    padding:0 0 30px 100px ;/* top rigth bottom left*/
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-size: 28px;
+
+
+    
+}
+.container p
+{
+    color:hsla(0, 0%, 100%, 0.75) ;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 200px;
+    padding: 0 100px;
+    margin-bottom: 100px;
+    
+
+}
+.container a 
+{
+    font-family: 'Lexend Deca', sans-serif;
+   color: aliceblue;
+    border: 1px solid hsl(0, 0%, 95% );
+    margin-left: 100px;
+    padding: 10px 30px;
+    border-radius: 20px ;
+   
+}
+
+.Sedan a:hover {
+
+    background-color:hsl(0, 0%, 95%) ;
+    color:hsl(31, 77%, 52%);
+    transition: 0.8s;
+}
+
+.Suv a:hover {
+
+    background-color:hsl(0, 0%, 95%) ;
+    color:hsl(184, 100%, 22%);
+    transition: 0.8s;
+}
+
+.Luxury a:hover {
+
+    background-color:hsl(0, 0%, 95%) ;
+    color:hsl(179, 100%, 13%);
+    transition: 0.8s;
+}
